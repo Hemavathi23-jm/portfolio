@@ -1,0 +1,2545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hemavathi J M | Full Stack Developer | Java, Spring Boot, React & AWS</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Professional portfolio of Hemavathi J M, an aspiring Full Stack Developer skilled in Java 21, Spring Boot, React, Supabase, MySQL, AWS, and Data Science. Discover live interactive simulators and enterprise case studies.">
+  <meta name="keywords"
+    content="Hemavathi J M, Portfolio, Full Stack Developer, Java, Spring Boot, React, Supabase, MySQL, AWS, Data Science, Python, Bangalore, MedQueue PRO, DRRO">
+  <meta name="author" content="Hemavathi J M">
+
+  <!-- Styling Sheet & Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Floating Particles Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <nav class="glass-panel">
+        <a href="#hero" class="logo">
+          <span></span>HEMAVATHI J M
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certificates</a></li>
+          <li><a href="#contact" class="nav-cta">Let's Connect</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text reveal">
+          <span class="welcome">Welcome to my space</span>
+          <h1>Hi, I'm <span class="gradient-text-accent">Hemavathi J M</span></h1>
+          <h2 id="typing-text">Full Stack Developer</h2>
+          <p>
+            Aspiring Full Stack Developer with a strong foundation in Java, Spring Boot, Python, SQL, React.js, and AWS.
+            Experienced in developing database-driven web applications, real-time WebSocket platforms, algorithmic
+            decision engines, and scalable cloud architectures.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Work
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="Hemavathi.J.M.pdf" download="Hemavathi_J_M_Resume.pdf" class="btn btn-resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Resume PDF
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/Hemavathi23-jm" target="_blank" rel="noopener noreferrer"
+              class="social-icon-btn" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/hemavathi-j-m-a10828259/" target="_blank" rel="noopener noreferrer"
+              class="social-icon-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="mailto:hemavathijm104@gmail.com" class="social-icon-btn" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a href="tel:+917022246217" class="social-icon-btn" aria-label="Phone">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-visual-bg"></div>
+          <div class="hero-visual-core">
+            <img src="profile.jpg" alt="Hemavathi J M Profile" class="hero-profile-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Education Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About & Education</h2>
+        <p>My academic foundation and core strengths</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-bio glass-panel reveal" style="padding: 32px;">
+          <h3>Professional Profile</h3>
+          <p>
+            Aspiring Full Stack Developer with a strong foundation in Java, Python, SQL, HTML, CSS, JavaScript, and AWS.
+            Hands-on experience in developing database-driven applications and RESTful APIs using Spring Boot,
+            Hibernate, JDBC, and SQL, along with building responsive web applications using React.js.
+          </p>
+          <p>
+            Experienced in data analysis and visualization using Python, Pandas, Matplotlib, Seaborn, and Power BI.
+            Seeking an opportunity to apply my technical and problem-solving skills to build scalable, user-focused
+            software solutions in a collaborative development environment.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-card glass-panel">
+              <div class="stat-num">3+</div>
+              <div class="stat-lbl">Internships & Training</div>
+            </div>
+            <div class="stat-card glass-panel">
+              <div class="stat-num">6+</div>
+              <div class="stat-lbl">Key Projects Built</div>
+            </div>
+            <div class="stat-card glass-panel">
+              <div class="stat-num">94.8%</div>
+              <div class="stat-lbl">DRRO Fulfillment Rate</div>
+            </div>
+            <div class="stat-card glass-panel">
+              <div class="stat-num">10+</div>
+              <div class="stat-lbl">CRUD APIs & Relational DBs</div>
+            </div>
+          </div>
+
+          <!-- Languages Known from Resume -->
+          <div style="margin-top: 24px;">
+            <h4
+              style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--secondary-accent); margin-bottom: 8px;">
+              Languages Known</h4>
+            <div class="lang-chips-grid">
+              <span class="lang-chip"><span>🗣️</span> English</span>
+              <span class="lang-chip"><span>🗣️</span> Hindi</span>
+              <span class="lang-chip"><span>🗣️</span> Kannada</span>
+              <span class="lang-chip"><span>🗣️</span> Tamil</span>
+              <span class="lang-chip"><span>🗣️</span> Telugu</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline reveal">
+          <h3 style="margin-left: 32px; margin-bottom: 20px; font-size: 1.8rem;" class="gradient-text">Academic Timeline
+          </h3>
+
+          <!-- Master of Computer Application -->
+          <div class="timeline-item">
+            <span class="timeline-date">Expected 2026</span>
+            <h4 class="timeline-title">Master of Computer Application</h4>
+            <p class="timeline-subtitle">Acharya Institute of Management and Science, Bangalore, Karnataka</p>
+            <div class="gpa-container">
+              <div class="gpa-ring">
+                <svg>
+                  <circle class="bg-circle" cx="30" cy="30" r="25" />
+                  <!-- Target stroke-dashoffset: 157 - (157 * 0.855) = ~22.8 -->
+                  <circle class="progress-circle" cx="30" cy="30" r="25" data-target-offset="22.8" />
+                </svg>
+                <div class="gpa-text">8.55</div>
+              </div>
+              <span class="gpa-label">CGPA: 8.55 / 10.0</span>
+            </div>
+          </div>
+
+          <!-- Bachelor of Science -->
+          <div class="timeline-item">
+            <span class="timeline-date">2021 – 2024</span>
+            <h4 class="timeline-title">Bachelor of Science (Physics, Computer Science)</h4>
+            <p class="timeline-subtitle">Sahyadri Degree College</p>
+            <div class="gpa-container">
+              <div class="gpa-ring">
+                <svg>
+                  <circle class="bg-circle" cx="30" cy="30" r="25" />
+                  <!-- Target stroke-dashoffset: 157 - (157 * 0.941) = ~9.2 -->
+                  <circle class="progress-circle" cx="30" cy="30" r="25" data-target-offset="9.2" />
+                </svg>
+                <div class="gpa-text">9.41</div>
+              </div>
+              <span class="gpa-label">CGPA: 9.41 / 10.0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>Technical Arsenal</h2>
+        <p>Tools, frameworks, and programming languages I specialize in</p>
+      </div>
+
+      <div class="skills-tabs reveal">
+        <button class="tab-btn active" data-filter="all">All Skills</button>
+        <button class="tab-btn" data-filter="languages">Languages & Web</button>
+        <button class="tab-btn" data-filter="backend">Backend & Frameworks</button>
+        <button class="tab-btn" data-filter="cloud">Cloud & Databases</button>
+        <button class="tab-btn" data-filter="datascience">Data Science & Analytics</button>
+      </div>
+
+      <div class="skills-grid reveal">
+        <!-- Java -->
+        <div class="skill-card glass-panel" data-category="backend">
+          <div class="skill-icon">☕</div>
+          <h4>Java (Java 17/21)</h4>
+          <span class="skill-category">Core Java, OOP, Multithreading</span>
+        </div>
+        <!-- Spring Boot -->
+        <div class="skill-card glass-panel" data-category="backend">
+          <div class="skill-icon">🍃</div>
+          <h4>Spring Boot 3</h4>
+          <span class="skill-category">RESTful APIs, Spring Security & DI</span>
+        </div>
+        <!-- Hibernate & JDBC -->
+        <div class="skill-card glass-panel" data-category="backend">
+          <div class="skill-icon">⚡</div>
+          <h4>Hibernate & JDBC</h4>
+          <span class="skill-category">ORM, Entity Graphs, JdbcTemplate</span>
+        </div>
+        <!-- WebSockets & STOMP -->
+        <div class="skill-card glass-panel" data-category="backend">
+          <div class="skill-icon">🔄</div>
+          <h4>WebSockets (STOMP)</h4>
+          <span class="skill-category">Real-Time Event Push & SockJS</span>
+        </div>
+        <!-- React.js -->
+        <div class="skill-card glass-panel" data-category="languages">
+          <div class="skill-icon">⚛️</div>
+          <h4>React.js & Vite</h4>
+          <span class="skill-category">React 18/19, Hooks, Context API</span>
+        </div>
+        <!-- Python -->
+        <div class="skill-card glass-panel" data-category="languages">
+          <div class="skill-icon">🐍</div>
+          <h4>Python</h4>
+          <span class="skill-category">Advanced Scripting & Analysis</span>
+        </div>
+        <!-- HTML/CSS/JS -->
+        <div class="skill-card glass-panel" data-category="languages">
+          <div class="skill-icon">🌐</div>
+          <h4>Web & Frontend</h4>
+          <span class="skill-category">HTML5, CSS3, JavaScript ES6+</span>
+        </div>
+        <!-- C Language -->
+        <div class="skill-card glass-panel" data-category="languages">
+          <div class="skill-icon">💾</div>
+          <h4>C Language</h4>
+          <span class="skill-category">Procedural & Memory Concepts</span>
+        </div>
+        <!-- MySQL -->
+        <div class="skill-card glass-panel" data-category="cloud">
+          <div class="skill-icon">🗄️</div>
+          <h4>MySQL 8.0</h4>
+          <span class="skill-category">13+ Relational Tables, Indexing</span>
+        </div>
+        <!-- Supabase -->
+        <div class="skill-card glass-panel" data-category="cloud">
+          <div class="skill-icon">⚡</div>
+          <h4>Supabase (PostgreSQL)</h4>
+          <span class="skill-category">Cloud Database, RLS, Storage</span>
+        </div>
+        <!-- AWS Cloud -->
+        <div class="skill-card glass-panel" data-category="cloud">
+          <div class="skill-icon">☁️</div>
+          <h4>AWS Cloud</h4>
+          <span class="skill-category">Lambda, API Gateway, DynamoDB, S3, EC2</span>
+        </div>
+        <!-- Vibe Coding -->
+        <div class="skill-card glass-panel" data-category="languages">
+          <div class="skill-icon">✨</div>
+          <h4>Vibe Coding</h4>
+          <span class="skill-category">AI-Driven Dev & Rapid Prototyping</span>
+        </div>
+        <!-- Git/GitHub -->
+        <div class="skill-card glass-panel" data-category="cloud">
+          <div class="skill-icon">🐙</div>
+          <h4>Git & GitHub</h4>
+          <span class="skill-category">Version Control & CI Workflows</span>
+        </div>
+        <!-- Power BI -->
+        <div class="skill-card glass-panel" data-category="datascience">
+          <div class="skill-icon">📊</div>
+          <h4>Power BI</h4>
+          <span class="skill-category">Interactive Dashboards & DAX</span>
+        </div>
+        <!-- Pandas & Matplotlib -->
+        <div class="skill-card glass-panel" data-category="datascience">
+          <div class="skill-icon">📈</div>
+          <h4>Pandas, Seaborn, EDA</h4>
+          <span class="skill-category">Data Cleaning & Statistical Viz</span>
+        </div>
+        <!-- Advanced Excel -->
+        <div class="skill-card glass-panel" data-category="datascience">
+          <div class="skill-icon">📑</div>
+          <h4>Advanced Excel</h4>
+          <span class="skill-category">Pivot Tables, Lookups, Modeling</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Internships Section -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2>Professional Journey</h2>
+        <p>My industrial internships and training milestones</p>
+      </div>
+
+      <div class="experience-layout reveal">
+        <!-- Internship 1 (Anudip Foundation) -->
+        <div class="exp-card glass-panel">
+          <div class="exp-header">
+            <div class="exp-role-company">
+              <h3>Advanced Java Development Trainee (Hybrid) <span class="exp-company">@ Anudip Foundation</span></h3>
+              <span class="exp-loc">Bengaluru, Karnataka (Hybrid)</span>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-date">Jul 2026 – Oct 2026</span>
+            </div>
+          </div>
+          <ul class="exp-desc">
+            <li>Completed a 3-month intensive training program covering 6+ core technologies, including Core Java, OOP,
+              JDBC, Hibernate, SQL, and Spring Boot, through hands-on coursework and project-based learning.</li>
+            <li>Developed database-driven Java applications by implementing 10+ CRUD operations using JDBC and SQL, with
+              relational database connectivity and query execution.</li>
+            <li>Built Spring Boot applications featuring 8+ RESTful API endpoints, dependency injection, Hibernate ORM,
+              and integration with a relational database.</li>
+          </ul>
+        </div>
+
+        <!-- Internship 2 (Smarted Innovations) -->
+        <div class="exp-card glass-panel">
+          <div class="exp-header">
+            <div class="exp-role-company">
+              <h3>Data Science Intern <span class="exp-company">@ Smarted Innovations</span></h3>
+              <span class="exp-loc">HSR Layout, Bengaluru (Online)</span>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-date">April 2025 – July 2025</span>
+            </div>
+          </div>
+          <ul class="exp-desc">
+            <li>Collected and analyzed large-scale datasets using Python, implementing data manipulation and statistical
+              techniques.</li>
+            <li>Performed comprehensive data preprocessing using Pandas, handling missing values and optimizing data
+              structures.</li>
+            <li>Created insightful visualizations including histograms, heatmaps, and correlation plots for data-driven
+              decision making.</li>
+          </ul>
+        </div>
+
+        <!-- Internship 3 (MIT Training Academy) -->
+        <div class="exp-card glass-panel">
+          <div class="exp-header">
+            <div class="exp-role-company">
+              <h3>Python & MySQL Connectivity Intern <span class="exp-company">@ MIT Training Academy</span></h3>
+              <span class="exp-loc">Kolar, Karnataka</span>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-date">July 2024</span>
+            </div>
+          </div>
+          <ul class="exp-desc">
+            <li>Completed intensive 10-day hands-on training on Python-MySQL integration and database connectivity,
+              developing CRUD applications with optimized query performance.</li>
+            <li>Improved data handling and query execution efficiency by 45% through optimized database operations.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section (Interactive) -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>Key Projects</h2>
+        <p>Click on a project to play with its interactive web simulator</p>
+      </div>
+
+      <div class="projects-layout reveal">
+        <!-- Left: Project Selector -->
+        <div class="project-selector">
+          <div class="project-option glass-panel" data-project="project-drro">
+            <span class="project-option-tag">Full-Stack Java & Logistics</span>
+            <h3>Disaster Resource Optimizer (DRRO)</h3>
+            <p>Algorithmic decision-support and crisis logistics platform with explainable multi-factor greedy
+              allocation and live hazard telemetry.</p>
+          </div>
+
+          <div class="project-option glass-panel" data-project="project-medqueue">
+            <span class="project-option-tag">Enterprise Java 21 & WebSockets</span>
+            <h3>Healthcare Operations (MedQueue PRO)</h3>
+            <p>Conflict-free appointment scheduling engine and real-time STOMP WebSocket triage queue prioritization
+              with zero double-booking.</p>
+          </div>
+
+          <div class="project-option glass-panel" data-project="project-iot">
+            <span class="project-option-tag">IoT & Cloud</span>
+            <h3>Smart Campus Monitoring</h3>
+            <p>React.js dashboard combined with ESP32 sensors and serverless AWS backend (Lambda, DynamoDB).</p>
+          </div>
+
+          <div class="project-option glass-panel" data-project="project-aquaponics">
+            <span class="project-option-tag">Sustainable IoT</span>
+            <h3>Aquaponics Closed-Loop System</h3>
+            <p>Eco-friendly closed-loop farming system combining aquaculture and hydroponics (VITM Fair 2nd Prize).</p>
+          </div>
+
+          <div class="project-option glass-panel" data-project="project-timetable">
+            <span class="project-option-tag">Serverless & Cloud</span>
+            <h3>AWS Timetable Generator</h3>
+            <p>Production-ready serverless scheduler running on API Gateway, Lambda, and DynamoDB.</p>
+          </div>
+
+          <div class="project-option glass-panel" data-project="project-eda">
+            <span class="project-option-tag">Data Science & Python</span>
+            <h3>Data Cleaning & EDA</h3>
+            <p>Cleaning, preprocessing, and analyzing the Titanic survival factors using Pandas, Matplotlib, and
+              Seaborn.</p>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Display Panel -->
+        <div class="project-display glass-panel">
+          <button id="close-project-display" class="close-project-btn"
+            aria-label="Close project simulator">&times;</button>
+
+          <!-- Panel: DRRO (Disaster Resource Response Optimizer) -->
+          <div class="project-showcase-panel" id="project-drro">
+            <div class="project-showcase-header">
+              <h2>Disaster Resource Response Optimizer (DRRO)</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">Java 17</span>
+                <span class="tech-pill">Spring Boot 3.3.2</span>
+                <span class="tech-pill">React 19</span>
+                <span class="tech-pill">Vite</span>
+                <span class="tech-pill">Supabase PostgreSQL</span>
+                <span class="tech-pill">Spring Security 6</span>
+                <span class="tech-pill">Leaflet Maps</span>
+                <span class="tech-pill">Recharts</span>
+                <span class="tech-pill">OpenPDF</span>
+                <span class="tech-pill">Twilio SMS</span>
+                <span class="tech-pill">NASA EONET API</span>
+              </div>
+            </div>
+
+            <!-- External Links Row -->
+            <div class="project-links-row">
+              <a href="https://github.com/Hemavathi23-jm/DRRO.git" target="_blank" rel="noopener noreferrer"
+                class="project-btn-link primary-btn-link">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+                GitHub Repository
+              </a>
+              <span class="project-btn-link" style="cursor: default; opacity: 0.9;">
+                <span>🌐</span> Live Crisis Response Desk
+              </span>
+            </div>
+
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+              An intelligent, explainable decision-support and humanitarian logistics web platform designed to eliminate
+              bottleneck guesswork during natural disasters (floods, earthquakes, cyclones). DRRO replaces conventional
+              first-come, first-served inefficiencies with a multi-factor greedy heuristic, automated multi-warehouse
+              split dispatches, real-time hazard scraping, and citizen SOS distress beacons.
+            </p>
+
+            <!-- Metrics Grid -->
+            <div class="metrics-cards-grid">
+              <div class="metric-card">
+                <div class="metric-card-num">94.8%</div>
+                <div class="metric-card-lbl">Relief Fulfillment</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card-num">0.21</div>
+                <div class="metric-card-lbl">Gini Equity Index</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card-num">&lt;100ms</div>
+                <div class="metric-card-lbl">Decision Execution Speed</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card-num">16+</div>
+                <div class="metric-card-lbl">Relational Entities</div>
+              </div>
+            </div>
+
+            <!-- Architectural Highlights -->
+            <ul class="project-highlights-list">
+              <li>
+                <span class="highlight-icon">🧮</span>
+                <span><strong>Explainable Multi-Factor Engine:</strong> Evaluates 6 normalized parameters (Severity,
+                  Population, Urgency, Shortage Deficit, Haversine Distance, and Vulnerability Index) with transparent
+                  mathematical scorecards, cutting unmet critical demand by 85%.</span>
+              </li>
+              <li>
+                <span class="highlight-icon">🏢</span>
+                <span><strong>Multi-Warehouse Split Allocation:</strong> Automatically partitions large deficit orders
+                  across regional supply depots with conflict-free transactional reservation.</span>
+              </li>
+              <li>
+                <span class="highlight-icon">🆘</span>
+                <span><strong>Public Safety & Citizen SOS Portal:</strong> Direct citizen interface capturing live GPS
+                  distress beacons, volunteer skill matching, and monetary donations with instant government-compliant
+                  80G tax exemption PDF receipts (OpenPDF).</span>
+              </li>
+              <li>
+                <span class="highlight-icon">🚚</span>
+                <span><strong>Live Hazards & Fleet Dispatch:</strong> Real-time scrapers for NASA EONET, USGS
+                  Earthquakes & GDACS, combined with Leaflet map tracking and mobile touchscreen digital Proof of
+                  Delivery (POD).</span>
+              </li>
+            </ul>
+
+            <!-- Screenshots Gallery -->
+            <div class="project-gallery-section">
+              <div class="gallery-header">
+                <span class="gallery-title">📸 Application Screenshots (Click Thumbnails to View)</span>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">8 High-Res Views</span>
+              </div>
+              <div class="gallery-preview-wrapper"
+                onclick="openLightbox(document.getElementById('drro-featured-img').src)">
+                <img src="DRRO_imgs/Screenshot 2026-11-17 011914.png" alt="DRRO Command Center Dashboard"
+                  class="gallery-preview-img" id="drro-featured-img">
+                <div class="gallery-preview-overlay">
+                  <span id="drro-caption">Command Center: Leaflet Operational Map, Action Queue & Dispatch Status</span>
+                  <span>🔍 Click to Expand</span>
+                </div>
+              </div>
+              <div class="gallery-thumbs-track">
+                <div class="gallery-thumb-item active"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 011914.png', 'Command Center: Leaflet Operational Map, Action Queue & Dispatch Status', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 011914.png" alt="Command Center">
+                </div>
+                <div class="gallery-thumb-item"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 012030.png', 'Multi-Factor Allocation Engine: Transparent Match Scoring & Warehouse Recommendations', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 012030.png" alt="Allocation Engine">
+                </div>
+                <div class="gallery-thumb-item"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 012008.png', 'Live Hazard Feeds: Real-time GDACS, NASA EONET & USGS Earthquakes Telemetry', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 012008.png" alt="Live Hazards">
+                </div>
+                <div class="gallery-thumb-item"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 012057.png', 'Fleet Dispatch Module: In-Transit Resource Tracking & Digital Proof-of-Delivery', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 012057.png" alt="Fleet Dispatch">
+                </div>
+                <div class="gallery-thumb-item"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 012122.png', 'Operational Analytics: Resource Utilization Donut & Response Pipeline Benchmarks', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 012122.png" alt="Reports & Analytics">
+                </div>
+                <div class="gallery-thumb-item"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 012204.png', 'Public Safety SOS Portal: GPS Distress Intake & Emergency Shelter Locator', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 012204.png" alt="Citizen Crisis Portal">
+                </div>
+                <div class="gallery-thumb-item"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 012228.png', 'Volunteer & Relief Donation: Mobilization Desk with 80G Tax-Exemption PDF Invoicing', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 012228.png" alt="Volunteer & Donation">
+                </div>
+                <div class="gallery-thumb-item"
+                  onclick="switchGalleryImg('drro', 'DRRO_imgs/Screenshot 2026-11-17 010405.png', 'Operations Desk: Role-Based Secure Access & Workspace Login', this)">
+                  <img src="DRRO_imgs/Screenshot 2026-11-17 010405.png" alt="Ops Desk Login">
+                </div>
+              </div>
+            </div>
+
+            <!-- DRRO Multi-Factor Optimizer Simulator -->
+            <div class="iot-sim">
+              <div
+                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+                <h4
+                  style="font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--secondary-accent); margin: 0;">
+                  🧮 Multi-Factor Allocation Engine Simulator
+                </h4>
+                <span class="sim-console-badge">● Algorithmic Greedy Heuristic Ready</span>
+              </div>
+
+              <div class="sim-input-row">
+                <div class="sim-input-group">
+                  <label for="drro-crisis-select">Target Crisis Incident:</label>
+                  <select id="drro-crisis-select" class="sim-select">
+                    <option value="wayanad">Wayanad Landslides (Severity: 88, Dist: 70km)</option>
+                    <option value="murasu">Cyclone Murasu Impact Zone (Severity: 94, Dist: 1097km)</option>
+                    <option value="nepal">Nepal Flash Flood Crisis (Severity: 76, Dist: 1850km)</option>
+                  </select>
+                </div>
+                <div class="sim-input-group">
+                  <label for="drro-item-select">Requested Critical Resource:</label>
+                  <select id="drro-item-select" class="sim-select">
+                    <option value="lifejackets">Life Jackets (Request: 38 Units)</option>
+                    <option value="firstaid">Trauma & First Aid Kits (Request: 50 Units)</option>
+                    <option value="blankets">Heavy Blankets & Shelter Kits (Request: 78 Units)</option>
+                    <option value="vehicle">4x4 High-Clearance Rescue Vehicle (Request: 12 Units)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap;">
+                <button class="pump-btn" id="run-drro-optimizer-btn" style="flex: 1; padding: 12px 20px;">
+                  ⚡ Run Explainable Multi-Factor Optimization
+                </button>
+                <button class="pump-btn" id="approve-dispatch-btn"
+                  style="padding: 12px 20px; display: none; background: var(--tertiary-gradient);">
+                  ✓ Simulate Officer Approval & Generate POD
+                </button>
+              </div>
+
+              <!-- Output Box -->
+              <div class="sim-output-box" id="drro-console-output">
+                [DRRO System Ready] Select an incident and resource above, then click 'Run Explainable Multi-Factor
+                Optimization' to view greedy allocation scoring, Haversine routing penalties, and warehouse inventory
+                reservations.
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: MedQueue PRO (Healthcare Operations) -->
+          <div class="project-showcase-panel" id="project-medqueue">
+            <div class="project-showcase-header">
+              <h2>Healthcare Operations Management Platform (MedQueue PRO)</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">Java 21</span>
+                <span class="tech-pill">Spring Boot 3.3.4</span>
+                <span class="tech-pill">React 18</span>
+                <span class="tech-pill">Vite 6</span>
+                <span class="tech-pill">MySQL 8.0</span>
+                <span class="tech-pill">WebSockets (STOMP)</span>
+                <span class="tech-pill">Tailwind CSS</span>
+                <span class="tech-pill">Spring Security (JWT)</span>
+                <span class="tech-pill">Spring Data JPA</span>
+                <span class="tech-pill">Spring JdbcTemplate</span>
+                <span class="tech-pill">jsPDF & ExcelJS</span>
+              </div>
+            </div>
+
+            <!-- External Links Row -->
+            <div class="project-links-row">
+              <a href="https://github.com/Hemavathi23-jm" target="_blank" rel="noopener noreferrer"
+                class="project-btn-link primary-btn-link">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+                GitHub Profile & Repos
+              </a>
+              <span class="project-btn-link" style="cursor: default; opacity: 0.9;">
+                <span>⚡</span> Sub-100ms WebSocket STOMP
+              </span>
+            </div>
+
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+              An enterprise outpatient capacity and queue management platform built with Java 21 and Spring Boot 3. It
+              eliminates doctor double-booking, synchronizes dynamic triage queues across waiting room screens without
+              browser reloads using STOMP WebSockets, and delivers high-performance operational analytics via a hybrid
+              JPA + JdbcTemplate architecture.
+            </p>
+
+            <!-- Metrics Grid -->
+            <div class="metrics-cards-grid">
+              <div class="metric-card">
+                <div class="metric-card-num"
+                  style="background: linear-gradient(135deg, #10b981, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                  Zero</div>
+                <div class="metric-card-lbl">Double-Booking Guaranteed</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card-num">&lt;100ms</div>
+                <div class="metric-card-lbl">WebSocket Queue Latency</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card-num">70%+</div>
+                <div class="metric-card-lbl">Faster Query Aggregation</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card-num">5 Roles</div>
+                <div class="metric-card-lbl">Granular RBAC Security</div>
+              </div>
+            </div>
+
+            <!-- Architectural Highlights -->
+            <ul class="project-highlights-list">
+              <li>
+                <span class="highlight-icon">📅</span>
+                <span><strong>Collision-Free Slot Scheduling Engine:</strong> Evaluates physician shifts, lunch hours,
+                  and approved leaves, slicing available time into discrete intervals based on appointment procedure
+                  type with atomic concurrency protection.</span>
+              </li>
+              <li>
+                <span class="highlight-icon">⚡</span>
+                <span><strong>Real-Time Dynamic Triage Queue:</strong> Prioritizes active patients using a weighted
+                  algorithm (<code style="color: #ef4444;">EMERGENCY [100]</code> &gt; <code
+                    style="color: #c084fc;">SENIOR_CITIZEN [50]</code> &gt; <code
+                    style="color: #60a5fa;">SCHEDULED [10]</code> &gt; <code
+                    style="color: #94a3b8;">WALK_IN [5]</code>), pushing instantaneous updates to <code
+                    style="color: var(--secondary-accent);">/topic/queue</code> via STOMP WebSockets.</span>
+              </li>
+              <li>
+                <span class="highlight-icon">🚀</span>
+                <span><strong>High-Performance Dual Persistence:</strong> Spring Data JPA maintains entity graph
+                  invariants across 13 tables; Spring JdbcTemplate executes raw SQL aggregations (<code
+                    style="color: var(--tertiary-accent);">GROUP BY, COUNT, AVG</code>) at sub-millisecond query
+                  execution speeds.</span>
+              </li>
+              <li>
+                <span class="highlight-icon">📊</span>
+                <span><strong>Enterprise Reporting Pipelines:</strong> Client-side multi-page A4 clinical PDFs (<code
+                    style="color: var(--secondary-accent);">jsPDF + autotable</code>) and 6-sheet structured Excel
+                  workbooks (<code style="color: var(--secondary-accent);">ExcelJS</code>) with role-adaptive
+                  layouts.</span>
+              </li>
+            </ul>
+
+            <!-- Screenshot Showcase -->
+            <div class="project-gallery-section">
+              <div class="gallery-header">
+                <span class="gallery-title">📸 Production Dashboard Screenshot</span>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">MedQueue PRO Operations Desk</span>
+              </div>
+              <div class="gallery-preview-wrapper"
+                onclick="openLightbox('Screenshot(healthcare) 2026-11-17 001428.png')">
+                <img src="Screenshot(healthcare) 2026-11-17 001428.png"
+                  alt="MedQueue PRO Capacity and Operations Dashboard" class="gallery-preview-img">
+                <div class="gallery-preview-overlay">
+                  <span>Capacity & Operations Dashboard: Live WebSocket Sync, Doctor Utilisation & In-Room
+                    Consultation</span>
+                  <span>🔍 Click to Expand</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- MedQueue Triage & Collision Simulator -->
+            <div class="iot-sim">
+              <div
+                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+                <h4
+                  style="font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--tertiary-accent); margin: 0;">
+                  🏥 Dynamic Triage Queue & Collision Engine Simulator
+                </h4>
+                <span class="sim-console-badge" id="medqueue-ws-badge">● STOMP WebSocket Sync Active
+                  (/topic/queue)</span>
+              </div>
+
+              <!-- Consultation Room Banner -->
+              <div class="queue-patient-row in-consult" style="margin-bottom: 14px;">
+                <div>
+                  <span
+                    style="font-size: 0.75rem; text-transform: uppercase; color: var(--secondary-accent); font-weight: 700; display: block;">Current
+                    Patient In Room (OPD 1)</span>
+                  <strong id="medqueue-active-patient" style="font-size: 1rem; color: white;">Token D2-003 — Raj
+                    K.</strong>
+                  <span style="color: var(--text-muted); font-size: 0.8rem; display: block;">Attending: Dr. Emily Clark
+                    (Orthopedics) • Procedure: Active Consultation</span>
+                </div>
+                <button class="pump-btn" id="medqueue-complete-btn"
+                  style="padding: 8px 16px; font-size: 0.8rem; background: var(--secondary-gradient);">
+                  Complete & Call Next
+                </button>
+              </div>
+
+              <!-- Waiting Queue List -->
+              <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-bottom: 8px;">Live
+                Waiting Queue (Dynamic Priority Weighted):</div>
+              <div class="queue-board-sim" id="medqueue-queue-container">
+                <!-- Dynamically rendered tokens -->
+              </div>
+
+              <!-- Quick Triage Action Controls -->
+              <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+                <button class="pump-btn" id="add-emergency-btn"
+                  style="flex: 1; min-width: 140px; padding: 10px; font-size: 0.8rem; background: linear-gradient(135deg, #ef4444, #dc2626);">
+                  + Triage Emergency [100]
+                </button>
+                <button class="pump-btn" id="add-senior-btn"
+                  style="flex: 1; min-width: 140px; padding: 10px; font-size: 0.8rem; background: linear-gradient(135deg, #a855f7, #7c3aed);">
+                  + Triage Senior [50]
+                </button>
+                <button class="pump-btn" id="add-walkin-btn"
+                  style="flex: 1; min-width: 140px; padding: 10px; font-size: 0.8rem; background: rgba(255,255,255,0.08);">
+                  + Regular Walk-in [5]
+                </button>
+              </div>
+
+              <!-- Collision Checker Block -->
+              <div class="glass-panel" style="padding: 14px; background: rgba(0,0,0,0.3); border-radius: 8px;">
+                <div style="font-size: 0.85rem; font-weight: 600; color: var(--secondary-accent); margin-bottom: 8px;">
+                  🛡️ Conflict-Free Slot Recommendation Engine Test
+                </div>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                  <select id="collision-doc-select" class="sim-select" style="flex: 1; min-width: 150px;">
+                    <option value="clark">Dr. Emily Clark (Orthopedics)</option>
+                    <option value="turing">Dr. Alan Turing (Cardiology)</option>
+                  </select>
+                  <select id="collision-slot-select" class="sim-select" style="flex: 1; min-width: 150px;">
+                    <option value="1000">10:00 AM - 10:30 AM (Leave/Occupied)</option>
+                    <option value="1130">11:30 AM - 12:00 PM (Available)</option>
+                    <option value="1400">02:00 PM - 02:45 PM (Shift Break)</option>
+                  </select>
+                  <button class="pump-btn" id="check-collision-btn" style="padding: 10px 18px; font-size: 0.85rem;">
+                    Check Slot Safety
+                  </button>
+                </div>
+                <div id="collision-result"
+                  style="font-family: var(--font-mono); font-size: 0.8rem; margin-top: 8px; color: var(--text-muted);">
+                  Select doctor and time to test real-time shift collision detection.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Panel 1: Smart Campus Monitoring -->
+          <div class="project-showcase-panel" id="project-iot">
+            <div class="project-showcase-header">
+              <h2>Smart Campus Monitoring System</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">React.js</span>
+                <span class="tech-pill">AWS Lambda</span>
+                <span class="tech-pill">DynamoDB</span>
+                <span class="tech-pill">ESP32</span>
+                <span class="tech-pill">API Gateway</span>
+              </div>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              A full-stack IoT system designed to monitor agricultural parameters of campuses (soil moisture and pH
+              levels) in real time. Backend uses serverless AWS Lambda and API Gateway triggers to push/pull sensor logs
+              to DynamoDB tables.
+            </p>
+
+            <!-- IoT Widget Simulator -->
+            <div class="iot-sim">
+              <h4
+                style="margin-bottom: 12px; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--secondary-accent);">
+                📡 Live Simulator Workspace
+              </h4>
+              <div class="iot-grid">
+                <div class="iot-gauge">
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">Soil Moisture</div>
+                  <div class="iot-gauge-val moisture" id="moisture-val">840</div>
+                </div>
+                <div class="iot-gauge">
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">Pond pH Index</div>
+                  <div class="iot-gauge-val ph" id="ph-val">6.80</div>
+                </div>
+              </div>
+              <div class="iot-status">
+                <div class="pump-status">
+                  <span class="status-dot" id="pump-status-dot"></span>
+                  <span id="pump-status-text"
+                    style="font-size: 0.9rem; font-weight: 500; color: var(--text-muted);">Standby</span>
+                </div>
+                <button class="pump-btn" id="pump-btn">Activate Irrigation</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 2: Data Analytics Dashboard -->
+          <div class="project-showcase-panel" id="project-analytics">
+            <div class="project-showcase-header">
+              <h2>Data Analytics Dashboard</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">Power BI</span>
+                <span class="tech-pill">Advanced Excel</span>
+                <span class="tech-pill">DAX Modeling</span>
+                <span class="tech-pill">ICT Academy</span>
+              </div>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              Built 5+ interactive analytics reports transforming complex corporate databases into intuitive summaries.
+              Implemented sophisticated DAX (Data Analysis Expressions) calculations to track metrics and optimize data
+              structures, saving reporting time.
+            </p>
+
+            <!-- Analytics Widget Simulator -->
+            <div class="analytics-sim">
+              <h4
+                style="margin-bottom: 12px; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--secondary-accent);">
+                📊 Interactive Performance Viewer
+              </h4>
+              <div class="chart-filters">
+                <button class="filter-btn active" data-quarter="q1">Q1 Metrics</button>
+                <button class="filter-btn" data-quarter="q2">Q2 Metrics</button>
+                <button class="filter-btn" data-quarter="q3">Q3 Metrics</button>
+                <button class="filter-btn" data-quarter="q4">Q4 Metrics</button>
+              </div>
+              <div class="chart-container">
+                <div class="chart-bar" style="height: 25%;" data-value="25k"></div>
+                <div class="chart-bar" style="height: 45%;" data-value="45k"></div>
+                <div class="chart-bar" style="height: 80%;" data-value="80k"></div>
+                <div class="chart-bar" style="height: 50%;" data-value="50k"></div>
+              </div>
+              <div class="chart-labels">
+                <div class="chart-label">Marketing</div>
+                <div class="chart-label">Sales</div>
+                <div class="chart-label">Tech</div>
+                <div class="chart-label">HR</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3: Cybersecurity Roadmap -->
+          <div class="project-showcase-panel" id="project-cyber">
+            <div class="project-showcase-header">
+              <h2>Cybersecurity Career Roadmap Website</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">HTML5</span>
+                <span class="tech-pill">CSS3</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">UI/UX Animation</span>
+              </div>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              Developed an interactive educational web app utilizing dynamic path renders, timeline highlights, and
+              quizzes to help aspiring cybersecurity professionals organize study modules from networking fundamentals
+              up to forensic log analysis.
+            </p>
+
+            <!-- Cyber Widget Simulator -->
+            <div class="cyber-sim">
+              <h4
+                style="margin-bottom: 12px; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary-accent);">
+                🛡️ Roadmap Explorer (Click Nodes)
+              </h4>
+              <div class="roadmap-nodes">
+                <div class="roadmap-node active" data-node="1">1</div>
+                <div class="roadmap-node" data-node="2">2</div>
+                <div class="roadmap-node" data-node="3">3</div>
+                <div class="roadmap-node" data-node="4">4</div>
+              </div>
+              <div class="roadmap-details">
+                <h4 id="details-title">Foundations & OS Security</h4>
+                <p id="details-content">
+                  Learn core fundamentals of Linux and Windows environments, networking concepts (TCP/IP), shell
+                  scripting, and security baseline configurations to identify initial access vulnerabilities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 4: Aquaponics -->
+          <div class="project-showcase-panel" id="project-aquaponics">
+            <div class="project-showcase-header">
+              <h2>Aquaponics Closed-Loop System</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">Sustainable IoT</span>
+                <span class="tech-pill">Embedded Systems</span>
+                <span class="tech-pill">Aquaculture</span>
+                <span class="tech-pill">Hydroponics</span>
+              </div>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 16px;">
+              Aquaponics is an eco-friendly farming system that combines fish farming and soil-less plant cultivation in
+              a closed-loop ecosystem. Fish waste supplies nutrients to plants, while plants naturally filter and purify
+              the water for reuse. This sustainable approach conserves water, reduces waste, and supports
+              environmentally friendly food production.
+            </p>
+
+            <div class="glass-panel"
+              style="padding: 16px; margin-bottom: 20px; border-color: rgba(16, 185, 129, 0.2); background: rgba(16, 185, 129, 0.02);">
+              <h4
+                style="color: var(--tertiary-accent); margin-bottom: 8px; font-size: 0.95rem; text-transform: uppercase;">
+                🏆 Recognition & Awards</h4>
+              <ul
+                style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.95rem; color: var(--text-muted);">
+                <li style="display: flex; gap: 8px; align-items: flex-start;">
+                  <span style="color: var(--tertiary-accent); font-weight: bold;">✦</span>
+                  <span>Presented as part of <strong>National Science Day</strong> and won <strong>2nd Prize</strong> in
+                    College.</span>
+                </li>
+                <li style="display: flex; gap: 8px; align-items: flex-start;">
+                  <span style="color: var(--tertiary-accent); font-weight: bold;">✦</span>
+                  <span>Presented at the <strong>Engineering Fair 2026 "VITM"</strong> and won <strong>2nd
+                      Place</strong>.</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Aquaponics Widget Simulator -->
+            <div class="iot-sim">
+              <h4
+                style="margin-bottom: 12px; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--tertiary-accent);">
+                🐠 Closed-Loop Ecosystem Simulator
+              </h4>
+              <div class="iot-grid">
+                <div class="iot-gauge">
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">Water Filtration</div>
+                  <div class="iot-gauge-val" id="filter-val" style="color: var(--tertiary-accent);">95% (Clean)</div>
+                </div>
+                <div class="iot-gauge">
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">Fish Status</div>
+                  <div class="iot-gauge-val" id="fish-status-val" style="color: var(--secondary-accent);">Happy</div>
+                </div>
+              </div>
+              <div class="iot-status" style="display: flex; gap: 12px; justify-content: space-around;">
+                <button class="pump-btn" id="feed-fish-btn" style="flex: 1; padding: 10px 0;">Feed Fish</button>
+                <button class="pump-btn" id="cycle-water-btn" style="flex: 1; padding: 10px 0;">Cycle Filter
+                  Water</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 5: AWS Timetable Generator -->
+          <div class="project-showcase-panel" id="project-timetable">
+            <div class="project-showcase-header">
+              <h2>AWS Timetable Generator</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">AWS Lambda</span>
+                <span class="tech-pill">DynamoDB</span>
+                <span class="tech-pill">API Gateway</span>
+                <span class="tech-pill">HTML5/JS</span>
+                <span class="tech-pill">Serverless</span>
+              </div>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+              This is a serverless web application that lets users create and generate timetables. Users add subjects
+              and schedule them across days/times through a beautiful HTML interface. The frontend sends data to AWS API
+              Gateway, which triggers two Lambda functions: one saves the schedule to DynamoDB, and the other retrieves
+              it to display a formatted timetable. Everything runs on AWS Free Tier with zero cost, using only API
+              Gateway, Lambda, and DynamoDB for a complete full-stack solution. The entire application is
+              production-ready and can be deployed by simply opening the HTML file in a browser.
+            </p>
+
+            <!-- Timetable Widget Simulator -->
+            <div class="iot-sim">
+              <h4
+                style="margin-bottom: 12px; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--secondary-accent);">
+                📅 Interactive Timetable Console
+              </h4>
+
+              <!-- Form to add subject -->
+              <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+                <input type="text" id="sched-subject" placeholder="Subject (e.g. Python)"
+                  style="flex: 1.5; min-width: 150px; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.03); color: white; font-size: 0.9rem;">
+                <select id="sched-day"
+                  style="flex: 1; min-width: 100px; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: #151622; color: white; font-size: 0.9rem;">
+                  <option value="Monday">Mon</option>
+                  <option value="Tuesday">Tue</option>
+                  <option value="Wednesday">Wed</option>
+                  <option value="Thursday">Thu</option>
+                  <option value="Friday">Fri</option>
+                </select>
+                <select id="sched-time"
+                  style="flex: 1; min-width: 100px; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: #151622; color: white; font-size: 0.9rem;">
+                  <option value="09:00 AM">9 AM</option>
+                  <option value="10:30 AM">10:30 AM</option>
+                  <option value="12:00 PM">12 PM</option>
+                  <option value="02:30 PM">2:30 PM</option>
+                </select>
+                <button class="pump-btn" id="add-sched-btn" style="padding: 10px 20px;">Add Slot</button>
+              </div>
+
+              <!-- List of schedules -->
+              <div class="glass-panel"
+                style="padding: 12px; max-height: 150px; overflow-y: auto; margin-bottom: 16px; font-size: 0.9rem; text-align: left; background: rgba(0,0,0,0.2);">
+                <div
+                  style="font-weight: 600; margin-bottom: 8px; color: var(--text-primary); border-bottom: 1px solid var(--border-color); padding-bottom: 4px;">
+                  Pending Schedule Payload:</div>
+                <div id="sched-list-container"
+                  style="color: var(--text-muted); display: flex; flex-direction: column; gap: 4px;">
+                  <div>• Data Science - Monday @ 09:00 AM</div>
+                  <div>• Cloud Computing - Wednesday @ 10:30 AM</div>
+                </div>
+              </div>
+
+              <!-- Action button and status -->
+              <div class="iot-status" style="display: flex; flex-direction: column; gap: 10px; align-items: stretch;">
+                <button class="pump-btn" id="save-sched-btn" style="width: 100%;">🚀 Deploy & Save to AWS
+                  DynamoDB</button>
+                <div id="aws-logs"
+                  style="font-family: var(--font-mono); font-size: 0.75rem; color: #10b981; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px; display: none; text-align: left; max-height: 100px; overflow-y: auto; line-height: 1.4;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 6: Data Cleaning and Exploratory Analysis -->
+          <div class="project-showcase-panel" id="project-eda">
+            <div class="project-showcase-header">
+              <h2>Data Cleaning and Exploratory Analysis</h2>
+              <div class="project-tech-pills">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">Seaborn</span>
+                <span class="tech-pill">Matplotlib</span>
+                <span class="tech-pill">Jupyter</span>
+              </div>
+            </div>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+              This project focuses on cleaning, preprocessing, and analyzing the Titanic dataset using Python. Missing
+              values, incorrect data types, and inconsistencies were handled using Pandas to improve data quality.
+              Exploratory Data Analysis (EDA) was performed using Matplotlib and Seaborn to uncover patterns and
+              relationships affecting passenger survival. The analysis revealed that factors such as gender, passenger
+              class, age, and fare significantly influenced survival outcomes.
+            </p>
+
+            <!-- Titanic Data Science Notebook Simulator -->
+            <div class="iot-sim">
+              <h4
+                style="margin-bottom: 12px; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--secondary-accent);">
+                🐼 Interactive Pandas & EDA Inspector
+              </h4>
+
+              <!-- Inspector Controls -->
+              <div style="display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap;">
+                <select id="eda-inspector-select"
+                  style="flex: 1; padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: #151622; color: white; font-size: 0.9rem;">
+                  <option value="head">df.head() - Raw Sample</option>
+                  <option value="missing">df.isnull().sum() - Missing Values</option>
+                  <option value="survival">sns.barplot() - Survival Factors</option>
+                </select>
+                <button class="pump-btn" id="clean-dataset-btn" style="padding: 10px 20px; display: none;">Run Clean &
+                  Impute Pipeline</button>
+              </div>
+
+              <!-- Output Workspace -->
+              <div class="glass-panel"
+                style="padding: 16px; font-family: var(--font-mono); font-size: 0.85rem; text-align: left; background: rgba(0,0,0,0.4); max-height: 250px; overflow-x: auto; overflow-y: auto;">
+                <div id="eda-console-output" style="color: #cbd5e1; white-space: pre; line-height: 1.4;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Achievements Section -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <h2>Certifications & Highlights</h2>
+        <p>Formal accreditations and competitive recognitions</p>
+      </div>
+
+      <!-- Certifications Slider -->
+      <div class="certs-slider-container reveal">
+        <div class="certs-track">
+          <!-- Cert 1 -->
+          <div class="cert-card glass-panel">
+            <div>
+              <span class="cert-badge">🏆</span>
+              <h3>Engineering Fair 2026</h3>
+              <span class="cert-issuer">VITM</span>
+            </div>
+            <div>
+              <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">
+                Awarded Second Prize for presenting Aquaphonics, a sustainable farming dashboard integration.
+              </p>
+              <span class="cert-date">March 2026</span>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-panel">
+            <div>
+              <span class="cert-badge">🤖</span>
+              <h3>AI-Driven World: Innovation & Automation</h3>
+              <span class="cert-issuer">ATAL FDP (AICTE)</span>
+            </div>
+            <div>
+              <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">
+                Completed training on automated workflows and machine learning integrations.
+              </p>
+              <span class="cert-date">September 2025</span>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-panel">
+            <div>
+              <span class="cert-badge">💡</span>
+              <h3>Gen AI Masterminds Workshop</h3>
+              <span class="cert-issuer">Outskill (19 hrs)</span>
+            </div>
+            <div>
+              <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">
+                Training on Custom GPT builds, prompt engineering pipelines, and automation.
+              </p>
+              <span class="cert-date">September 2025</span>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card glass-panel">
+            <div>
+              <span class="cert-badge">🐍</span>
+              <h3>Python for Data Science</h3>
+              <span class="cert-issuer">NPTEL (IIT)</span>
+            </div>
+            <div>
+              <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">
+                Proficiency in NumPy, Pandas, Matplotlib, and key data manipulation concepts.
+              </p>
+              <span class="cert-date">March 2025</span>
+            </div>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card glass-panel">
+            <div>
+              <span class="cert-badge">📊</span>
+              <h3>Power BI Workshop</h3>
+              <span class="cert-issuer">ICT Academy</span>
+            </div>
+            <div>
+              <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">
+                7-day hands-on workshop focused on dashboard design and DAX calculations.
+              </p>
+              <span class="cert-date">February 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn prev" aria-label="Previous Slide">←</button>
+          <button class="slider-btn next" aria-label="Next Slide">→</button>
+        </div>
+      </div>
+
+      <!-- Achievements Box -->
+      <div class="glass-panel reveal" style="margin-top: 50px; padding: 32px;">
+        <h3 style="margin-bottom: 20px;" class="gradient-text">Key Achievements</h3>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 16px;">
+          <li style="display: flex; gap: 12px; align-items: flex-start; color: var(--text-muted);">
+            <span style="color: var(--tertiary-accent); font-weight: bold;">✦</span>
+            <span><strong>Engineering Fair 2026 (VITM):</strong> Won 2nd Prize for presenting Aquaponics, an
+              eco-friendly closed-loop system combining aquaculture and plant cultivation.</span>
+          </li>
+          <li style="display: flex; gap: 12px; align-items: flex-start; color: var(--text-muted);">
+            <span style="color: var(--primary-accent); font-weight: bold;">✦</span>
+            <span><strong>Smart India Hackathon Team Lead:</strong> Directed a team through full application workflow
+              development, architectural coordination, and on-time solution delivery.</span>
+          </li>
+          <li style="display: flex; gap: 12px; align-items: flex-start; color: var(--text-muted);">
+            <span style="color: var(--secondary-accent); font-weight: bold;">✦</span>
+            <span><strong>Deloitte Australia Cyber Job Simulation:</strong> Investigated system firewall logs, detected
+              unauthorized lateral movement access, and structured comprehensive remediation reports.</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <p>Let's discuss opportunities, projects, or collaborations</p>
+      </div>
+
+      <div class="contact-layout reveal">
+        <div class="contact-info">
+          <h3>Connection Details</h3>
+          <p>
+            Have a question, an internship opportunity, or want to collaborate on a Python or IoT project? Feel free to
+            reach out via my contact methods or send a direct message.
+          </p>
+
+          <div class="contact-methods">
+            <!-- Email -->
+            <div class="contact-method-item glass-panel">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="method-details">
+                <h4>Email Me</h4>
+                <a href="mailto:hemavathijm104@gmail.com">hemavathijm104@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-method-item glass-panel">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div class="method-details">
+                <h4>Call Me</h4>
+                <a href="tel:+917022246217">+91 7022246217</a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-method-item glass-panel">
+              <div class="method-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="method-details">
+                <h4>Location</h4>
+                <span>Bangalore, Karnataka, India - 560001</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-panel" data-recipient-email="hemavathijm104@gmail.com">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Let's build something amazing together..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Send Message
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Hemavathi J M. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Hemavathi23-jm" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+          aria-label="GitHub Profile">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/hemavathi-j-m-a10828259/" target="_blank" rel="noopener noreferrer"
+          class="social-icon-btn" aria-label="LinkedIn Profile">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Fullscreen Image Inspection -->
+  <div class="img-lightbox-modal" id="image-lightbox" onclick="closeLightbox()">
+    <button class="img-lightbox-close" aria-label="Close image preview" onclick="closeLightbox()">&times;</button>
+    <img id="lightbox-img" src="" alt="Project Preview" onclick="event.stopPropagation()">
+  </div>
+
+  <!-- Script logic file -->
+  <script>
+    const initPortfolio = () => {
+      // 1. Navigation & Theme Elements
+      const header = document.querySelector('header');
+      const nav = document.querySelector('nav');
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinksList = document.querySelector('.nav-links');
+      const navAnchors = document.querySelectorAll('.nav-links a');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+
+      menuToggle.addEventListener('click', () => {
+        navLinksList.classList.toggle('mobile-open');
+      });
+
+      // Highlight active link on scroll
+      const sections = document.querySelectorAll('section');
+      window.addEventListener('scroll', () => {
+        let current = '';
+        const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPosition = scrollY + 180;
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          if (scrollPosition >= sectionTop) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        // Fallback for bottom of the page
+        if (window.innerHeight + scrollY >= document.documentElement.scrollHeight - 50) {
+          current = 'contact';
+        }
+
+        navAnchors.forEach(a => {
+          a.classList.remove('active');
+          if (a.getAttribute('href').slice(1) === current) {
+            a.classList.add('active');
+          }
+        });
+      });
+
+      // Close mobile nav when clicking a link
+      navAnchors.forEach(anchor => {
+        anchor.addEventListener('click', () => {
+          navLinksList.classList.remove('mobile-open');
+        });
+      });
+
+
+      // 2. Canvas Particles Background
+      const canvas = document.getElementById('bg-canvas');
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        let particlesArray = [];
+
+        // Set canvas dimensions
+        const resizeCanvas = () => {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        };
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        // Particle constructor
+        class Particle {
+          constructor() {
+            this.x = Math.random() * canvas.width;
+            this.y = Math.random() * canvas.height;
+            this.size = Math.random() * 2 + 0.5;
+            this.speedX = Math.random() * 0.4 - 0.2;
+            this.speedY = Math.random() * 0.4 - 0.2;
+            this.color = Math.random() > 0.5 ? 'rgba(139, 92, 246, 0.15)' : 'rgba(6, 182, 212, 0.15)';
+          }
+          update() {
+            this.x += this.speedX;
+            this.y += this.speedY;
+
+            if (this.x > canvas.width) this.x = 0;
+            if (this.x < 0) this.x = canvas.width;
+            if (this.y > canvas.height) this.y = 0;
+            if (this.y < 0) this.y = canvas.height;
+          }
+          draw() {
+            ctx.fillStyle = this.color;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.fill();
+          }
+        }
+
+        const initParticles = () => {
+          particlesArray = [];
+          const numberOfParticles = Math.floor((canvas.width * canvas.height) / 15000);
+          for (let i = 0; i < numberOfParticles; i++) {
+            particlesArray.push(new Particle());
+          }
+        };
+        initParticles();
+        window.addEventListener('resize', initParticles);
+
+        const animateParticles = () => {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          particlesArray.forEach(p => {
+            p.update();
+            p.draw();
+          });
+          requestAnimationFrame(animateParticles);
+        };
+        animateParticles();
+      }
+
+
+      // 3. Typing Subtitle Animation in Hero
+      const typeTarget = document.getElementById('typing-text');
+      if (typeTarget) {
+        const words = ["Full Stack Developer", "Java & Spring Boot Engineer", "React.js & Cloud Developer", "Data Science & Analytics Specialist"];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
+
+        const typeAnimation = () => {
+          const currentWord = words[wordIndex];
+          if (isDeleting) {
+            typeTarget.textContent = currentWord.substring(0, charIndex - 1);
+            charIndex--;
+            typingSpeed = 50;
+          } else {
+            typeTarget.textContent = currentWord.substring(0, charIndex + 1);
+            charIndex++;
+            typingSpeed = 120;
+          }
+
+          if (!isDeleting && charIndex === currentWord.length) {
+            typingSpeed = 1500; // Pause at full word
+            isDeleting = true;
+          } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            typingSpeed = 400; // Pause before next word
+          }
+
+          setTimeout(typeAnimation, typingSpeed);
+        };
+        setTimeout(typeAnimation, 1000);
+      }
+
+
+      // 4. Skills Filtering System
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const skillCards = document.querySelectorAll('.skill-card');
+
+      tabButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filterValue = btn.getAttribute('data-filter');
+
+          skillCards.forEach(card => {
+            if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+              card.style.display = 'block';
+              card.style.animation = 'fadeIn 0.3s ease forwards';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+
+      // 5. Intersection Observer for GPA Progress Rings & Scroll Reveals
+      const revealElements = document.querySelectorAll('.reveal');
+      const observerOptions = {
+        root: null,
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+
+            // Custom actions when specific elements reveal
+            if (entry.target.classList.contains('timeline')) {
+              // Trigger GPA progress rings animations
+              const rings = entry.target.querySelectorAll('.progress-circle');
+              rings.forEach(ring => {
+                const targetOffset = ring.getAttribute('data-target-offset');
+                ring.style.transition = 'stroke-dashoffset 2s cubic-bezier(0.16, 1, 0.3, 1)';
+                ring.style.strokeDashoffset = targetOffset;
+              });
+            }
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      revealElements.forEach(el => revealObserver.observe(el));
+
+
+      // 6. Interactive Projects Showcase
+      const projectsLayout = document.querySelector('.projects-layout');
+      const projectDisplay = document.querySelector('.project-display');
+      const projectOptions = document.querySelectorAll('.project-option');
+      const projectPanels = document.querySelectorAll('.project-showcase-panel');
+      const closeProjectBtn = document.getElementById('close-project-display');
+
+      projectOptions.forEach(option => {
+        option.addEventListener('click', () => {
+          projectOptions.forEach(o => o.classList.remove('active'));
+          option.classList.add('active');
+
+          const projectId = option.getAttribute('data-project');
+
+          projectPanels.forEach(panel => {
+            panel.classList.remove('active');
+            if (panel.getAttribute('id') === projectId) {
+              panel.classList.add('active');
+            }
+          });
+
+          // Show display panel and split grid layout
+          if (projectDisplay) {
+            projectDisplay.classList.add('active');
+            if (window.innerWidth <= 992) {
+              projectDisplay.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+          if (projectsLayout) {
+            projectsLayout.classList.add('active-selected');
+          }
+        });
+      });
+
+      if (closeProjectBtn) {
+        closeProjectBtn.addEventListener('click', () => {
+          // Remove active classes
+          projectOptions.forEach(o => o.classList.remove('active'));
+          projectPanels.forEach(p => p.classList.remove('active'));
+
+          if (projectDisplay) {
+            projectDisplay.classList.remove('active');
+          }
+          if (projectsLayout) {
+            projectsLayout.classList.remove('active-selected');
+          }
+        });
+      }
+
+      // =========================================================================
+      // GALLERY SWITCHER & FULLSCREEN LIGHTBOX
+      // =========================================================================
+      window.switchGalleryImg = (projectId, src, caption, thumbEl) => {
+        const featured = document.getElementById(`${projectId}-featured-img`);
+        const cap = document.getElementById(`${projectId}-caption`);
+        if (featured) {
+          featured.src = src;
+        }
+        if (cap) {
+          cap.textContent = caption;
+        }
+        const parentTrack = thumbEl.parentElement;
+        if (parentTrack) {
+          parentTrack.querySelectorAll('.gallery-thumb-item').forEach(t => t.classList.remove('active'));
+          thumbEl.classList.add('active');
+        }
+      };
+
+      const lightboxModal = document.getElementById('image-lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      window.openLightbox = (src) => {
+        if (lightboxModal && lightboxImg) {
+          lightboxImg.src = src;
+          lightboxModal.classList.add('active');
+        }
+      };
+      window.closeLightbox = () => {
+        if (lightboxModal) {
+          lightboxModal.classList.remove('active');
+        }
+      };
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLightbox();
+      });
+
+      // =========================================================================
+      // WIDGET DRRO: Multi-Factor Greedy Allocation Simulator
+      // =========================================================================
+      const runDrroBtn = document.getElementById('run-drro-optimizer-btn');
+      const approveDispatchBtn = document.getElementById('approve-dispatch-btn');
+      const drroCrisisSelect = document.getElementById('drro-crisis-select');
+      const drroItemSelect = document.getElementById('drro-item-select');
+      const drroOutput = document.getElementById('drro-console-output');
+
+      const crisisScenarios = {
+        wayanad: {
+          name: "Wayanad Landslides & Flash Floods",
+          severity: 88,
+          population: 12400,
+          urgency: "CRITICAL (L1)",
+          vulnerability: 0.89,
+          nearestDepot: { name: "Calicut Relief Depot", distance: 70.2, stock: 120, time: "1.4 hrs" },
+          backupDepot: { name: "Kochi Central Hub", distance: 260.5, stock: 450, time: "5.8 hrs" }
+        },
+        murasu: {
+          name: "Cyclone Murasu Impact Zone",
+          severity: 94,
+          population: 48000,
+          urgency: "CATASTROPHIC (L0)",
+          vulnerability: 0.95,
+          nearestDepot: { name: "Chennai Coastal Depot", distance: 110.4, stock: 85, time: "2.1 hrs" },
+          backupDepot: { name: "Kochi Central Warehouse", distance: 1097.5, stock: 600, time: "21.9 hrs" }
+        },
+        nepal: {
+          name: "Nepal Flash Flood & Quake Crisis",
+          severity: 76,
+          population: 8500,
+          urgency: "HIGH (L2)",
+          vulnerability: 0.82,
+          nearestDepot: { name: "Gorakhpur Depot", distance: 145.0, stock: 90, time: "3.2 hrs" },
+          backupDepot: { name: "Calicut Relief Depot", distance: 2150.0, stock: 350, time: "42.0 hrs" }
+        }
+      };
+
+      if (runDrroBtn) {
+        runDrroBtn.addEventListener('click', () => {
+          const crisisKey = drroCrisisSelect ? drroCrisisSelect.value : 'wayanad';
+          const scenario = crisisScenarios[crisisKey];
+          const reqItemText = drroItemSelect ? drroItemSelect.options[drroItemSelect.selectedIndex].text : 'Relief Material';
+
+          runDrroBtn.disabled = true;
+          runDrroBtn.innerHTML = 'Executing Greedy Algorithm... ⚡';
+          drroOutput.innerHTML = `[DRRO Engine v3.3.2] Initializing optimization pipeline...
+> Target: ${scenario.name}
+> Request: ${reqItemText}
+> Normalized Params: Severity=${scenario.severity}/100, Urgency=${scenario.urgency}, VulnIndex=${scenario.vulnerability}
+> Haversine Matrix: Calculating geospatial transit distances to regional depots...`;
+
+          setTimeout(() => {
+            drroOutput.innerHTML += `\n[Geospatial Query] Found primary depot: ${scenario.nearestDepot.name} (${scenario.nearestDepot.distance} km, ETA: ${scenario.nearestDepot.time})
+[Stock Evaluation] Available in Depot 1: ${scenario.nearestDepot.stock} Units (Deficit Check: PASS)`;
+            drroOutput.scrollTop = drroOutput.scrollHeight;
+          }, 700);
+
+          setTimeout(() => {
+            const matchScore = (scenario.severity * 0.35 + 30 - (scenario.nearestDepot.distance * 0.05) + scenario.vulnerability * 20).toFixed(1);
+            drroOutput.innerHTML += `\n[Multi-Factor Formula]:
+  Score = 0.30*(Severity) + 0.25*(Urgency) + 0.20*(PopImpact) + 0.15*(Deficit) - 0.10*(HaversineDist)
+  Candidate: ${scenario.nearestDepot.name} -> MATCH SCORE: ${matchScore}/100 (RECOMMENDED)
+[Transactional Lock]:
+  Reserved units on ${scenario.nearestDepot.name} (ACID state: RESERVED).
+  Gini Index: 0.21 (Equitable distribution verified across adjacent clusters).
+>>> Recommendation Ready for Human-in-the-Loop Officer Authorization.`;
+            drroOutput.scrollTop = drroOutput.scrollHeight;
+            runDrroBtn.disabled = false;
+            runDrroBtn.innerHTML = '⚡ Re-Calculate Optimization';
+            if (approveDispatchBtn) {
+              approveDispatchBtn.style.display = 'inline-block';
+              approveDispatchBtn.setAttribute('data-target', `${scenario.name} | ${scenario.nearestDepot.name}`);
+            }
+          }, 1500);
+        });
+      }
+
+      if (approveDispatchBtn) {
+        approveDispatchBtn.addEventListener('click', () => {
+          approveDispatchBtn.disabled = true;
+          approveDispatchBtn.innerHTML = 'Dispatching Fleet... 🚚';
+          drroOutput.innerHTML += `\n\n[OFFICER APPROVAL GRANTED] Token: AUTH-SIG-${Math.random().toString(36).substring(2, 9).toUpperCase()}
+> State transition: RESERVED -> DISPATCHED
+> Fleet Transit Route: Generated Leaflet polylines with GPS ping interval (5s)
+> SMS Gateway: Sent Twilio emergency notification to on-field team
+> Proof-of-Delivery: Mobile touchscreen digital signature pad activated.
+✓ All 16+ relational entities updated cleanly in Supabase PostgreSQL!`;
+          drroOutput.scrollTop = drroOutput.scrollHeight;
+
+          setTimeout(() => {
+            approveDispatchBtn.innerHTML = '✓ Dispatched & Synced!';
+            setTimeout(() => {
+              approveDispatchBtn.style.display = 'none';
+              approveDispatchBtn.disabled = false;
+              approveDispatchBtn.innerHTML = '✓ Simulate Officer Approval & Generate POD';
+            }, 3000);
+          }, 1000);
+        });
+      }
+
+      // =========================================================================
+      // WIDGET MedQueue PRO: Real-Time Dynamic Triage & Slot Collision Simulator
+      // =========================================================================
+      const queueContainer = document.getElementById('medqueue-queue-container');
+      const activePatientText = document.getElementById('medqueue-active-patient');
+      const completePatientBtn = document.getElementById('medqueue-complete-btn');
+      const addEmergencyBtn = document.getElementById('add-emergency-btn');
+      const addSeniorBtn = document.getElementById('add-senior-btn');
+      const addWalkinBtn = document.getElementById('add-walkin-btn');
+      const checkCollisionBtn = document.getElementById('check-collision-btn');
+      const collisionResult = document.getElementById('collision-result');
+      const collisionDocSelect = document.getElementById('collision-doc-select');
+      const collisionSlotSelect = document.getElementById('collision-slot-select');
+
+      let currentTriageQueue = [
+        { token: "D2-001", name: "Sarah Jenkins", tier: "EMERGENCY", weight: 100, waitMins: 5 },
+        { token: "D2-004", name: "Robert Chen (Age 72)", tier: "SENIOR CITIZEN", weight: 50, waitMins: 18 },
+        { token: "D2-002", name: "Anita Rao", tier: "SCHEDULED", weight: 10, waitMins: 32 }
+      ];
+      let tokenCounter = 5;
+
+      const renderMedQueue = () => {
+        if (!queueContainer) return;
+        queueContainer.innerHTML = '';
+        if (currentTriageQueue.length === 0) {
+          queueContainer.innerHTML = '<div style="color: var(--text-dark); padding: 10px; font-size: 0.85rem;">Waiting room queue empty. Issue a triage token below.</div>';
+          return;
+        }
+
+        currentTriageQueue.forEach((pt, index) => {
+          const row = document.createElement('div');
+          row.className = 'queue-patient-row';
+          let badgeClass = 'triage-walkin';
+          if (pt.tier === 'EMERGENCY') badgeClass = 'triage-emergency';
+          else if (pt.tier === 'SENIOR CITIZEN') badgeClass = 'triage-senior';
+          else if (pt.tier === 'SCHEDULED') badgeClass = 'triage-scheduled';
+
+          row.innerHTML = `
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="font-family: var(--font-mono); font-weight: 700; color: white;">#${index + 1}</span>
+              <div>
+                <strong style="color: white;">${pt.token} — ${pt.name}</strong>
+                <span style="display: block; font-size: 0.75rem; color: var(--text-muted);">Est. Wait: ${pt.waitMins} mins</span>
+              </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span class="triage-badge ${badgeClass}">${pt.tier}</span>
+              <button class="pump-btn call-single-btn" data-index="${index}" style="padding: 4px 10px; font-size: 0.75rem;">Call</button>
+            </div>
+          `;
+          queueContainer.appendChild(row);
+        });
+
+        // Add call buttons listener
+        queueContainer.querySelectorAll('.call-single-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const idx = parseInt(e.target.getAttribute('data-index'));
+            const called = currentTriageQueue.splice(idx, 1)[0];
+            if (activePatientText) {
+              activePatientText.textContent = `${called.token} — ${called.name} (${called.tier})`;
+              activePatientText.style.color = '#06b6d4';
+            }
+            recalculateWaitTimes();
+            renderMedQueue();
+          });
+        });
+      };
+
+      const recalculateWaitTimes = () => {
+        let accumulated = 15;
+        currentTriageQueue.forEach(pt => {
+          pt.waitMins = accumulated;
+          accumulated += pt.tier === 'EMERGENCY' ? 20 : 15;
+        });
+      };
+
+      const sortTriageQueue = () => {
+        currentTriageQueue.sort((a, b) => b.weight - a.weight);
+        recalculateWaitTimes();
+        renderMedQueue();
+      };
+
+      const pushWebSocketBroadcast = (action, token) => {
+        const badge = document.getElementById('medqueue-ws-badge');
+        if (badge) {
+          badge.textContent = `⚡ [STOMP] Sent ${action} for ${token} -> sub-100ms sync`;
+          badge.style.color = '#38bdf8';
+          setTimeout(() => {
+            badge.textContent = '● STOMP WebSocket Sync Active (/topic/queue)';
+            badge.style.color = '#10b981';
+          }, 2500);
+        }
+      };
+
+      if (addEmergencyBtn) {
+        addEmergencyBtn.addEventListener('click', () => {
+          const names = ["David Miller (Chest Pain)", "Maria Garcia (Severe Trauma)", "Vikram Seth (Acute Distress)"];
+          const selectedName = names[Math.floor(Math.random() * names.length)];
+          const tokenStr = `D2-00${tokenCounter++}`;
+          currentTriageQueue.push({ token: tokenStr, name: selectedName, tier: "EMERGENCY", weight: 100, waitMins: 5 });
+          pushWebSocketBroadcast("EMERGENCY_TRIAGE_INTAKE", tokenStr);
+          sortTriageQueue();
+        });
+      }
+
+      if (addSeniorBtn) {
+        addSeniorBtn.addEventListener('click', () => {
+          const names = ["Florence Nightingale (Age 78)", "Arthur Dent (Age 81)", "Kavitha Menon (Age 75)"];
+          const selectedName = names[Math.floor(Math.random() * names.length)];
+          const tokenStr = `D2-00${tokenCounter++}`;
+          currentTriageQueue.push({ token: tokenStr, name: selectedName, tier: "SENIOR CITIZEN", weight: 50, waitMins: 20 });
+          pushWebSocketBroadcast("SENIOR_CITIZEN_PRIORITY", tokenStr);
+          sortTriageQueue();
+        });
+      }
+
+      if (addWalkinBtn) {
+        addWalkinBtn.addEventListener('click', () => {
+          const names = ["Alex Turner", "Sunita Sharma", "Michael Chang"];
+          const selectedName = names[Math.floor(Math.random() * names.length)];
+          const tokenStr = `D2-00${tokenCounter++}`;
+          currentTriageQueue.push({ token: tokenStr, name: selectedName, tier: "WALK_IN", weight: 5, waitMins: 45 });
+          pushWebSocketBroadcast("WALK_IN_TOKEN", tokenStr);
+          sortTriageQueue();
+        });
+      }
+
+      if (completePatientBtn) {
+        completePatientBtn.addEventListener('click', () => {
+          if (currentTriageQueue.length > 0) {
+            const nextPatient = currentTriageQueue.shift();
+            if (activePatientText) {
+              activePatientText.textContent = `${nextPatient.token} — ${nextPatient.name}`;
+            }
+            pushWebSocketBroadcast("CONSULTATION_COMPLETED", nextPatient.token);
+            recalculateWaitTimes();
+            renderMedQueue();
+          } else {
+            if (activePatientText) {
+              activePatientText.textContent = "All consultations completed. Queue empty.";
+              activePatientText.style.color = '#10b981';
+            }
+          }
+        });
+      }
+
+      // Conflict-free Slot Recommendation Test
+      if (checkCollisionBtn) {
+        checkCollisionBtn.addEventListener('click', () => {
+          const slot = collisionSlotSelect ? collisionSlotSelect.value : '1000';
+
+          if (slot === '1000') {
+            collisionResult.innerHTML = `<span style="color: #ef4444; font-weight: bold;">❌ Collision Detected!</span> Slot 10:00 AM conflicts with existing approved physician leave record. Atomic transaction blocked duplicate booking.`;
+          } else if (slot === '1400') {
+            collisionResult.innerHTML = `<span style="color: #f59e0b; font-weight: bold;">⚠️ Shift Collision:</span> 02:00 PM intersects with physician's mandatory 30-minute institutional lunch break.`;
+          } else {
+            collisionResult.innerHTML = `<span style="color: #10b981; font-weight: bold;">✓ 0 Collisions (Safe):</span> Slot 11:30 AM - 12:00 PM is verified against shifts, breaks, and leaves. Ready for one-click reservation!`;
+          }
+        });
+      }
+
+      // Initial render for MedQueue
+      renderMedQueue();
+
+      // WIDGET 1: IoT Smart Campus Monitor Simulator
+      const moistureVal = document.getElementById('moisture-val');
+      const phVal = document.getElementById('ph-val');
+      const pumpBtn = document.getElementById('pump-btn');
+      const pumpStatusDot = document.getElementById('pump-status-dot');
+      const pumpStatusText = document.getElementById('pump-status-text');
+      let pumpActive = false;
+      let moisture = 840;
+      let ph = 6.8;
+
+      // Simulator interval to jitter sensor values slightly
+      setInterval(() => {
+        if (pumpActive) {
+          if (moisture < 1700) moisture += Math.round(Math.random() * 60 + 20);
+          if (ph < 7.2) ph += Math.random() * 0.05;
+        } else {
+          if (moisture > 600) moisture -= Math.round(Math.random() * 16);
+          ph += (Math.random() * 0.1 - 0.05); // slight wobble
+        }
+
+        // Safety caps
+        moisture = Math.max(200, Math.min(2000, moisture));
+        ph = Math.max(4.0, Math.min(9.0, ph));
+
+        if (moistureVal) moistureVal.textContent = Math.round(moisture);
+        if (phVal) phVal.textContent = ph.toFixed(2);
+      }, 2000);
+
+      if (pumpBtn) {
+        pumpBtn.addEventListener('click', () => {
+          pumpActive = !pumpActive;
+          if (pumpActive) {
+            pumpBtn.textContent = 'Deactivate Irrigation';
+            pumpStatusDot.classList.add('active');
+            pumpStatusText.textContent = 'Active Irrigation';
+            pumpStatusText.style.color = '#10b981';
+          } else {
+            pumpBtn.textContent = 'Activate Irrigation';
+            pumpStatusDot.classList.remove('active');
+            pumpStatusText.textContent = 'Standby';
+            pumpStatusText.style.color = '#94a3b8';
+          }
+        });
+      }
+
+      // WIDGET 2: Data Analytics Dashboard Simulator
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const chartBars = document.querySelectorAll('.chart-bar');
+
+      // Simulated metrics sets:
+      // key: filter category, values: array for 4 categories (e.g., Marketing, Sales, Tech, HR)
+      const mockDataset = {
+        q1: [25, 45, 80, 50],
+        q2: [40, 60, 95, 45],
+        q3: [65, 55, 75, 60],
+        q4: [90, 85, 98, 70]
+      };
+
+      const updateChart = (quarter) => {
+        const data = mockDataset[quarter];
+        chartBars.forEach((bar, index) => {
+          const percentageValue = data[index];
+          bar.style.height = percentageValue + '%';
+          bar.setAttribute('data-value', percentageValue + 'k');
+        });
+      };
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const q = btn.getAttribute('data-quarter');
+          updateChart(q);
+        });
+      });
+      // Initial fill
+      if (chartBars.length > 0) {
+        updateChart('q1');
+      }
+
+      // WIDGET 3: Cybersecurity Roadmap Simulator
+      const roadmapNodes = document.querySelectorAll('.roadmap-node');
+      const detailsTitle = document.getElementById('details-title');
+      const detailsContent = document.getElementById('details-content');
+
+      const nodeContent = {
+        1: {
+          title: "Foundations & OS Security",
+          desc: "Learn core fundamentals of Linux and Windows environments, networking concepts (TCP/IP), shell scripting, and security baseline configurations to identify initial access vulnerabilities."
+        },
+        2: {
+          title: "Network Defense & Analysis",
+          desc: "Analyze Wireshark packet captures, configure firewall security policies, design secure network zones (DMZs), and implement Intrusion Detection Systems (IDS/IPS) for real-time traffic monitoring."
+        },
+        3: {
+          title: "Log Analysis & Cyber Simulation",
+          desc: "Investigate firewall, proxy, and system logs to identify signs of lateral movement or data exfiltration. Inspired by Deloitte Australia Career Job Simulation exercises."
+        },
+        4: {
+          title: "Incident Response & Mitigation",
+          desc: "Contain malware outbreaks, isolate compromised systems, perform host forensics (e.g. registry analysis, memory dumps), and coordinate disaster recovery responses."
+        }
+      };
+
+      roadmapNodes.forEach(node => {
+        node.addEventListener('click', () => {
+          roadmapNodes.forEach(n => n.classList.remove('active'));
+          node.classList.add('active');
+
+          const nodeIndex = node.getAttribute('data-node');
+
+          // Update details content
+          if (detailsTitle && detailsContent) {
+            detailsTitle.textContent = nodeContent[nodeIndex].title;
+            detailsContent.textContent = nodeContent[nodeIndex].desc;
+          }
+
+          // Mark preceding nodes as completed
+          roadmapNodes.forEach(n => {
+            const idx = parseInt(n.getAttribute('data-node'));
+            if (idx < parseInt(nodeIndex)) {
+              n.classList.add('completed');
+            } else {
+              n.classList.remove('completed');
+            }
+          });
+        });
+      });
+
+      // WIDGET 4: Aquaponics Closed-Loop Simulator
+      const filterVal = document.getElementById('filter-val');
+      const fishStatusVal = document.getElementById('fish-status-val');
+      const feedFishBtn = document.getElementById('feed-fish-btn');
+      const cycleWaterBtn = document.getElementById('cycle-water-btn');
+      let waterQuality = 95;
+      let fishStatus = 'Happy';
+      let feedsCount = 0;
+
+      setInterval(() => {
+        // Natural gradual decay of water quality
+        waterQuality -= Math.random() * 1.5;
+        waterQuality = Math.max(20, Math.min(100, waterQuality));
+
+        // Fish status reacts to water quality and feeds
+        if (waterQuality < 45) {
+          fishStatus = 'Stressed (Dirty Water)';
+        } else if (feedsCount > 4) {
+          fishStatus = 'Overfed';
+        } else if (fishStatus === 'Stressed (Dirty Water)' || fishStatus === 'Overfed') {
+          if (waterQuality >= 50 && feedsCount <= 4) {
+            fishStatus = 'Happy';
+          }
+        } else {
+          if (Math.random() > 0.7) {
+            fishStatus = 'Hungry';
+          }
+        }
+
+        if (filterVal) {
+          let desc = 'Clean';
+          if (waterQuality < 40) desc = 'Toxic';
+          else if (waterQuality < 70) desc = 'Murky';
+          filterVal.textContent = Math.round(waterQuality) + '% (' + desc + ')';
+          filterVal.style.color = waterQuality > 70 ? 'var(--tertiary-accent)' : (waterQuality > 40 ? 'var(--secondary-accent)' : '#f43f5e');
+        }
+
+        if (fishStatusVal) {
+          fishStatusVal.textContent = fishStatus;
+          fishStatusVal.style.color = fishStatus === 'Happy' ? 'var(--secondary-accent)' : (fishStatus === 'Hungry' ? '#f59e0b' : '#f43f5e');
+        }
+      }, 3000);
+
+      if (feedFishBtn) {
+        feedFishBtn.addEventListener('click', () => {
+          if (fishStatus === 'Stressed (Dirty Water)') {
+            alert('Filter the water first! The fish are stressed.');
+            return;
+          }
+          fishStatus = 'Happy';
+          feedsCount++;
+          waterQuality = Math.max(20, waterQuality - 15);
+          if (filterVal) {
+            let desc = 'Clean';
+            if (waterQuality < 40) desc = 'Toxic';
+            else if (waterQuality < 70) desc = 'Murky';
+            filterVal.textContent = Math.round(waterQuality) + '% (' + desc + ')';
+          }
+          if (fishStatusVal) {
+            fishStatusVal.textContent = fishStatus;
+            fishStatusVal.style.color = 'var(--secondary-accent)';
+          }
+        });
+      }
+
+      if (cycleWaterBtn) {
+        cycleWaterBtn.addEventListener('click', () => {
+          waterQuality = Math.min(100, waterQuality + 25);
+          feedsCount = Math.max(0, feedsCount - 1);
+          if (waterQuality >= 50 && (fishStatus === 'Stressed (Dirty Water)' || fishStatus === 'Overfed')) {
+            fishStatus = 'Happy';
+          }
+          if (filterVal) {
+            let desc = 'Clean';
+            if (waterQuality < 40) desc = 'Toxic';
+            else if (waterQuality < 70) desc = 'Murky';
+            filterVal.textContent = Math.round(waterQuality) + '% (' + desc + ')';
+          }
+          if (fishStatusVal) {
+            fishStatusVal.textContent = fishStatus;
+            fishStatusVal.style.color = 'var(--secondary-accent)';
+          }
+        });
+      }
+
+      // WIDGET 5: AWS Timetable Generator Simulator
+      const schedSubject = document.getElementById('sched-subject');
+      const schedDay = document.getElementById('sched-day');
+      const schedTime = document.getElementById('sched-time');
+      const addSchedBtn = document.getElementById('add-sched-btn');
+      const schedListContainer = document.getElementById('sched-list-container');
+      const saveSchedBtn = document.getElementById('save-sched-btn');
+      const awsLogs = document.getElementById('aws-logs');
+
+      let currentSchedule = [
+        { subject: 'Data Science', day: 'Monday', time: '09:00 AM' },
+        { subject: 'Cloud Computing', day: 'Wednesday', time: '10:30 AM' }
+      ];
+
+      const renderScheduleList = () => {
+        if (!schedListContainer) return;
+        schedListContainer.innerHTML = '';
+        if (currentSchedule.length === 0) {
+          schedListContainer.innerHTML = '<div style="color: var(--text-dark);">No pending records. Add a slot above.</div>';
+          return;
+        }
+        currentSchedule.forEach((item, index) => {
+          const div = document.createElement('div');
+          div.style.display = 'flex';
+          div.style.justifyContent = 'space-between';
+          div.style.alignItems = 'center';
+          div.innerHTML = `<span>• <strong>${item.subject}</strong> - ${item.day} @ ${item.time}</span>
+                           <span class="remove-sched" data-index="${index}" style="color: #f43f5e; cursor: pointer; font-size: 0.8rem; margin-left: 10px; font-weight: bold;">[Remove]</span>`;
+          schedListContainer.appendChild(div);
+        });
+
+        // Add event listeners for remove links
+        document.querySelectorAll('.remove-sched').forEach(link => {
+          link.addEventListener('click', (e) => {
+            const idx = parseInt(e.target.getAttribute('data-index'));
+            currentSchedule.splice(idx, 1);
+            renderScheduleList();
+          });
+        });
+      };
+
+      if (addSchedBtn) {
+        addSchedBtn.addEventListener('click', () => {
+          const sub = schedSubject.value.trim();
+          const day = schedDay.value;
+          const time = schedTime.value;
+
+          if (!sub) {
+            alert('Please enter a subject name.');
+            return;
+          }
+
+          currentSchedule.push({ subject: sub, day: day, time: time });
+          schedSubject.value = '';
+          renderScheduleList();
+        });
+      }
+
+      if (saveSchedBtn) {
+        saveSchedBtn.addEventListener('click', () => {
+          if (currentSchedule.length === 0) {
+            alert('Payload empty. Please add slots first.');
+            return;
+          }
+
+          saveSchedBtn.disabled = true;
+          saveSchedBtn.innerHTML = 'Connecting to AWS API Gateway... 🚀';
+          awsLogs.style.display = 'block';
+          awsLogs.innerHTML = `[Localhost] Initializing network payload...<br>[Localhost] POST request payload: ${JSON.stringify(currentSchedule)}`;
+
+          setTimeout(() => {
+            awsLogs.innerHTML += `<br><span style="color: var(--secondary-accent)">[API Gateway] POST /timetable -> HTTP 200 OK (Triggered Lambda)</span>`;
+            awsLogs.scrollTop = awsLogs.scrollHeight;
+          }, 1000);
+
+          setTimeout(() => {
+            awsLogs.innerHTML += `<br>[AWS Lambda] invokeHandler() started.<br>[AWS Lambda] Parsed ${currentSchedule.length} timetable items.`;
+            awsLogs.scrollTop = awsLogs.scrollHeight;
+          }, 2000);
+
+          setTimeout(() => {
+            awsLogs.innerHTML += `<br>[DynamoDB] putItem batch write started on table 'TimetableRecords'.`;
+            awsLogs.scrollTop = awsLogs.scrollHeight;
+          }, 3000);
+
+          setTimeout(() => {
+            awsLogs.innerHTML += `<br><span style="color: var(--tertiary-accent)">[DynamoDB] BatchWrite SUCCESS. RequestId: ${Math.random().toString(36).substring(2, 10).toUpperCase()}</span>`;
+            awsLogs.scrollTop = awsLogs.scrollHeight;
+            saveSchedBtn.disabled = false;
+            saveSchedBtn.innerHTML = 'Saved & Deployed Successfully! ✓';
+            saveSchedBtn.style.background = 'var(--tertiary-gradient)';
+
+            setTimeout(() => {
+              saveSchedBtn.innerHTML = '🚀 Deploy & Save to AWS DynamoDB';
+              saveSchedBtn.style.background = 'var(--primary-gradient)';
+            }, 3000);
+          }, 4200);
+        });
+      }
+
+      // Initial render
+      renderScheduleList();
+
+      // WIDGET 6: Titanic Data Cleaning & EDA Simulator
+      const edaSelect = document.getElementById('eda-inspector-select');
+      const cleanBtn = document.getElementById('clean-dataset-btn');
+      const edaConsole = document.getElementById('eda-console-output');
+      let dataCleaned = false;
+
+      const edaContents = {
+        head: () => {
+          return `   PassengerId  Survived  Pclass                                 Name     Sex   Age
+0            1         0       3              Braund, Mr. Owen Harris    male  22.0
+1            2         1       1  Cumings, Mrs. John Bradley (Florence)  female  38.0
+2            3         1       3               Heikkinen, Miss. Laina  female  26.0
+3            4         1       1         Futrelle, Mrs. Jacques Heath  female  35.0
+4            5         0       3             Allen, Mr. William Henry    male  35.0`;
+        },
+        missing: () => {
+          if (dataCleaned) {
+            return `df.isnull().sum()
+-------------------------
+PassengerId    0
+Survived       0
+Pclass         0
+Name           0
+Sex            0
+Age            0   <-- Imputed with median Age (28.0)
+Cabin          0   <-- Imputed with 'Unknown'
+Embarked       0
+dtype: int64
+
+DataFrame status: Cleaned & Ready for Modeling!`;
+          } else {
+            return `df.isnull().sum()
+-------------------------
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177   <-- Missing values found!
+Cabin          687   <-- Missing values found!
+Embarked         2   <-- Missing values found!
+dtype: int64`;
+          }
+        },
+        survival: () => {
+          return `Survival Correlation Factors (SNS barplot data)
+------------------------------------------------------
+Gender:
+  Female survival rate: 74.2%  ███████████████ 74%
+  Male survival rate:   18.9%  ███ 19%
+
+Passenger Class:
+  Class 1 survival rate: 63.0%  ████████████ 63%
+  Class 2 survival rate: 47.3%  █████████ 47%
+  Class 3 survival rate: 24.2%  ████ 24%
+
+Survival strongly correlated with gender (female) and class (1st).`;
+        }
+      };
+
+      const updateEdaOutput = () => {
+        if (!edaConsole || !edaSelect) return;
+        const mode = edaSelect.value;
+        edaConsole.innerHTML = edaContents[mode]();
+
+        if (mode === 'missing' && !dataCleaned) {
+          cleanBtn.style.display = 'inline-block';
+        } else {
+          cleanBtn.style.display = 'none';
+        }
+      };
+
+      if (edaSelect) {
+        edaSelect.addEventListener('change', updateEdaOutput);
+      }
+
+      if (cleanBtn) {
+        cleanBtn.addEventListener('click', () => {
+          cleanBtn.disabled = true;
+          cleanBtn.innerHTML = 'Cleaning & Imputing... ⚙️';
+          edaConsole.innerHTML = `Running data cleaning pipeline...
+>>> df['Age'].fillna(df['Age'].median(), inplace=True)
+>>> df['Cabin'].fillna('Unknown', inplace=True)
+>>> df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)`;
+
+          setTimeout(() => {
+            dataCleaned = true;
+            cleanBtn.disabled = false;
+            cleanBtn.innerHTML = 'Run Clean & Impute Pipeline';
+            cleanBtn.style.display = 'none';
+            updateEdaOutput();
+          }, 1500);
+        });
+      }
+
+      // Initial render
+      updateEdaOutput();
+
+
+      // 7. Certifications Slider / Carousel
+      const track = document.querySelector('.certs-track');
+      const prevBtn = document.querySelector('.slider-btn.prev');
+      const nextBtn = document.querySelector('.slider-btn.next');
+
+      if (track) {
+        let scrollPosition = 0;
+        const cardWidth = 320 + 24; // Card width + gap
+        const containerWidth = document.querySelector('.certs-slider-container').offsetWidth;
+        const trackWidth = track.scrollWidth;
+
+        const getMaxScroll = () => {
+          return -(track.scrollWidth - document.querySelector('.certs-slider-container').offsetWidth);
+        };
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', () => {
+            const maxScroll = getMaxScroll();
+            scrollPosition -= cardWidth;
+            if (scrollPosition < maxScroll) {
+              scrollPosition = maxScroll; // lock at end
+            }
+            track.style.transform = `translateX(${scrollPosition}px)`;
+          });
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', () => {
+            scrollPosition += cardWidth;
+            if (scrollPosition > 0) {
+              scrollPosition = 0; // lock at start
+            }
+            track.style.transform = `translateX(${scrollPosition}px)`;
+          });
+        }
+
+        // Handle window resizing
+        window.addEventListener('resize', () => {
+          scrollPosition = 0;
+          track.style.transform = 'translateX(0)';
+        });
+      }
+
+
+      // 8. Contact Form Submissions handling
+      const form = document.querySelector('.contact-form');
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+
+          const name = form.querySelector('#name').value.trim();
+          const email = form.querySelector('#email').value.trim();
+          const message = form.querySelector('#message').value.trim();
+          const submitBtn = form.querySelector('.btn-primary');
+          const statusMessage = form.querySelector('.form-status');
+          const originalText = submitBtn.innerHTML;
+          const recipientEmail = form.dataset.recipientEmail;
+
+          const setFormStatus = (text, type) => {
+            if (!statusMessage) {
+              return;
+            }
+            statusMessage.textContent = text;
+            statusMessage.classList.remove('is-success', 'is-error', 'is-sending');
+            if (type) {
+              statusMessage.classList.add(type);
+            }
+          };
+
+          if (!name || !email || !message) {
+            setFormStatus('Please fill out all fields before submitting.', 'is-error');
+            return;
+          }
+
+          submitBtn.innerHTML = 'Sending Message... <span>✉️</span>';
+          submitBtn.style.pointerEvents = 'none';
+          setFormStatus('Sending your message now...', 'is-sending');
+          submitBtn.disabled = true;
+
+          const formPayload = new FormData();
+          formPayload.append('name', name);
+          formPayload.append('email', email);
+          formPayload.append('message', message);
+          formPayload.append('_subject', `Portfolio message from ${name}`);
+          formPayload.append('_replyto', email);
+          formPayload.append('_captcha', 'false');
+          formPayload.append('_template', 'table');
+
+          try {
+            const response = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(recipientEmail)}`, {
+              method: 'POST',
+              headers: {
+                Accept: 'application/json'
+              },
+              body: formPayload
+            });
+
+            const result = await response.json().catch(() => ({}));
+            if (!response.ok || result.success === 'false') {
+              throw new Error(result.message || 'Unable to deliver the message right now.');
+            }
+
+            setFormStatus('Thanks! Your message was sent successfully.', 'is-success');
+            submitBtn.innerHTML = 'Success! Mail Triggered <span>✓</span>';
+            submitBtn.style.background = 'var(--tertiary-gradient)';
+            form.reset();
+
+            setTimeout(() => {
+              submitBtn.innerHTML = originalText;
+              submitBtn.style.background = 'var(--primary-gradient)';
+            }, 3000);
+          } catch (error) {
+            const errorMessage = error instanceof Error ? error.message : 'Unable to deliver the message right now.';
+            submitBtn.style.background = 'var(--secondary-gradient)';
+
+            if (errorMessage.includes('Activation')) {
+              setFormStatus('FormSubmit needs a one-time activation. Check your inbox and spam folder for the activation email, then submit again.', 'is-error');
+            } else if (errorMessage.includes('web server') || errorMessage.includes('HTML files')) {
+              setFormStatus('Open this portfolio through http://localhost:4173 or a hosted site before sending. Email delivery does not work on file:// pages.', 'is-error');
+            } else {
+              const subject = 'Portfolio contact request';
+              const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+              const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+              setFormStatus('Automatic delivery failed, so your email app is opening as a fallback.', 'is-error');
+              window.location.href = mailtoLink;
+            }
+
+            setTimeout(() => {
+              submitBtn.innerHTML = originalText;
+              submitBtn.style.background = 'var(--primary-gradient)';
+            }, 3000);
+          } finally {
+            submitBtn.style.pointerEvents = 'all';
+            submitBtn.disabled = false;
+          }
+        });
+      }
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initPortfolio);
+    } else {
+      initPortfolio();
+    }
+  </script>
+</body>
+
+</html>
